@@ -8,11 +8,11 @@ int main() {
     cout << "BMI Calculator" << endl;
     cout << "--------------------------------------" << endl;
 
-    cout << "Weight:   kg\b\b\b\b\b";
+    cout << "Weight:     kg\b\b\b\b\b\b\b";
     double weight;
     cin >> weight;
 
-    cout << "Height:    m\b\b\b\b\b";
+    cout << "Height:     m\b\b\b\b\b\b";
     double height;
     cin >> height;
 
@@ -20,7 +20,7 @@ int main() {
 
     cout << fixed << setprecision(2);
     cout << "Result:" << endl;
-    cout << "- BMI " << bmi << endl;
+    cout << "-  BMI " << bmi << endl;
 
     string category;
     if (bmi < 18.5) {
@@ -36,7 +36,7 @@ int main() {
         category = "obesity";
     }
 
-    cout << "- You are '" << category << "'" << endl;
+    cout << "-  You are '" << category << "'" << endl;
 
     system("pause");
     return 0;
